@@ -5,6 +5,7 @@
 a {
   text-decoration: none;
   display: inline-block;
+
 }
 
 ul,
@@ -182,6 +183,7 @@ body {
   position: relative;
   z-index: 2;
   outline: none;
+  cursor: pointer;
 }
 
 .default-btn:after {
@@ -833,11 +835,37 @@ body {
 }
 
 #modal input[type="submit"] {
-  background-color: #ffc222;
-  border: none;
+    background-color: #ffc222;
+    border: none;
 }
 
 .header__btn-menu {
   display: none;
   font-size: 28px;
+}
+
+input[type="button"] {
+  appearance: auto;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  padding: 5px 20px 4px 50px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  background-color: #ffc222;
+  border: none;
+  cursor: pointer;
+  float: left;
+  
+}
+
+.next {
+  display: none;
 }
